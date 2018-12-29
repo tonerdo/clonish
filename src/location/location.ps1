@@ -1,4 +1,4 @@
 function Clonish-Location {
     $location = Get-Location
-    return $location.Path
+    return "Set-Location -Path '$location'"
 }
